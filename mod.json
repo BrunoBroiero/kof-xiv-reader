@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "kof-xiv-reader",
+  "name": "KOF XIV Reader",
+  "game": "THE KING OF FIGHTERS XIV",
+  "steamAppId": 571260,
+  "installDir": "THE KING OF FIGHTERS XIV",
+  "gameExe": "kofxiv.exe",
+  "target": "",
+  "asset": "KofXIVReader-*.zip",
+  "uninstall": ["winmm.dll", "prism.dll", "tolk.dll"],
+  "description": {
+    "en": "Screen-reader mod for THE KING OF FIGHTERS XIV: menus, story, command lists, trials, player data, gallery and the fight numbers, spoken through NVDA or JAWS.",
+    "es": "Mod de accesibilidad para THE KING OF FIGHTERS XIV: menús, historia, lista de comandos, pruebas, datos del jugador, galería y los números de la pelea, leídos con NVDA o JAWS."
+  }
+}
