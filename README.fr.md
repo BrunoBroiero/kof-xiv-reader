@@ -18,6 +18,12 @@ ce qu'il dit est le texte du jeu lui-même et non celui du mod.
 
 - **Menus et options** : l'écran où vous êtes entré, l'entrée qui a le focus et sa
   description ; le nom d'un réglage, sa valeur actuelle et ce qu'a fait le changement.
+- **Commandes** : l'écran des commandes, depuis les options et depuis le menu pause —
+  l'appareil de chaque joueur, ce à quoi chaque action est assignée, et l'assignation
+  elle-même : la touche ou le bouton pris et celui qu'il a délogé. Les touches du clavier
+  sont lues telles que le jeu les écrit ; les boutons d'une manette sont nommés d'après
+  les assignations que le jeu transmet à son écran — nouveau dans cette version et encore
+  en vérification.
 - **Mode histoire** : chaque ligne de dialogue et chaque fin — sans voix dans ce jeu, donc
   inaccessibles sans cela.
 - **Listes de commandes** : comment s'exécute un coup, en cinq notations (F10 les change) :
@@ -83,7 +89,7 @@ bien que rien d'autre dans le processus ne s'en aperçoit.
 | Clic du stick droit, en combat | Les deux joueurs d'un coup : « PLAYER 1, 62%, POWER 2, PLAYER 2, 40%, POWER 1 ». En attaque chrono, le temps écoulé |
 | Stick droit, ailleurs | F1 à F3 pour la manette : haut vaut F2, bas vaut F3, gauche et droite valent F1, le clic change la notation comme F10. Dans un défi ou une leçon cela reste ainsi, clic compris : là, les directions appartiennent au combattant, et les entrées comptent plus que les barres |
 | F10 | Change la façon de dire une entrée, parmi les cinq notations |
-| F4 | Active ou désactive la lecture des menus |
+| F11, ou les deux clics de stick sur la manette | Éteint tout le lecteur, et le rallume. Éteint, il ne dit plus rien ; ces deux-là répondent toujours, et chaque session démarre avec le lecteur allumé |
 | F7 | Arrête de parler |
 | F8 | Dit quel lecteur d'écran le mod a trouvé — entendre quelque chose signifie déjà que le mod fonctionne |
 | F9 | Marque ce moment dans le journal, en silence : « le problème est ici » |
@@ -112,6 +118,11 @@ Le jeu dessine cette ligne la première fois qu'elle doit apparaître et n'en re
 donc la voir est le seul moyen de le savoir. L'écrire fait que le mod est en retard une fois
 et non à chaque démarrage. Supprimez le fichier pour qu'il réapprenne tout.
 
+`KofXIVReader.settings`, à côté, garde ce que vous avez choisi plutôt que ce que le jeu a
+montré : pour l'instant, la notation dans laquelle les commandes sont lues. Le lecteur
+éteint n'est délibérément pas gardé : un mod qui s'en souviendrait démarrerait un jeu muet
+sans rien pour dire pourquoi.
+
 ## Signaler un problème
 
 Appuyez sur **F6** dans le jeu pour activer le journal, sur **F9** au moment où quelque
@@ -120,6 +131,16 @@ dossier du jeu, et la session précédente reste à côté sous `KofXIVReader.pr
 ce que le jeu a affiché, dans quel champ, de quel écran cela venait et ce que le mod en a
 dit — de quoi voir ce qu'il aurait dû dire. Pas besoin d'écrire ce que vous avez entendu :
 le journal en a les mots exacts.
+
+## Code source
+
+Le code source n'est pas encore public. Il le sera une fois le mod installé dans l'usage ;
+c'est une étape, pas une décision définitive. Ce qui est publié ici est libre à télécharger
+et à utiliser.
+
+Le mod embarque deux fichiers qui ne sont pas les siens, `prism.dll` et `tolk.dll`, tous
+deux de [PRISM](https://github.com/ethindp/prism) sous licence Mozilla Public License 2.0 —
+voir [THIRD-PARTY.md](THIRD-PARTY.md).
 
 ## Code source
 

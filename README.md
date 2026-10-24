@@ -15,6 +15,11 @@ because almost everything it says is the game's own text rather than the mod's.
 
 - **Menus and options**: the screen you entered, the entry that has focus and its
   description; a setting's name, what it is set to, and what changing it did.
+- **Controls**: the controls screen, from the options and from the pause menu — which
+  device each player uses, what every action is bound to, and the binding itself: the
+  key or button taken and any it displaced. Keyboard keys are read as the game writes
+  them; a pad's buttons are named from the bindings the game hands its screen, which is
+  new in this version and still being checked.
 - **Story mode**: every line of dialogue and every ending — unvoiced in this game, and so
   unreadable without this.
 - **Command lists**: how a move is performed, in five notations (F10 switches between
@@ -82,7 +87,7 @@ the process notices it is there.
 | Right stick click, in a fight | Both players whole: "PLAYER 1, 62%, POWER 2, PLAYER 2, 40%, POWER 1". In a time attack run, the time taken so far |
 | Right stick, elsewhere | F1 to F3 for a pad: up is F2, down is F3, left and right are F1, the click changes notation as F10 does. In a trial or a lesson being played it stays this way, click included: there the arrows belong to the fighter, and the inputs matter more than the bars |
 | F10 | Change how a move's input is said, through the five notations |
-| F4 | Turn menu reading on or off |
+| F11, or both stick clicks on a pad | Turn the whole reader off, and on again. Off it says nothing at all; these two still answer, and every run starts with it on |
 | F7 | Stop talking |
 | F8 | Say which screen reader the mod found — hearing it at all means the mod is alive |
 | F9 | Mark this moment in the log, silently: "the problem is here" |
@@ -110,6 +115,10 @@ nothing, and silence is the answer. Toggles answer with the game's own words for
 first time it has to appear and never mentions it again, so being shown is the only way to
 find out. Recording it means the mod is a step behind once rather than every time it
 starts. Delete the file to have it all learnt again.
+
+`KofXIVReader.settings`, beside it, holds what you chose rather than what the game showed:
+for now, the notation commands are read in. Being turned off is deliberately not kept — a
+mod that remembered that would start a silent game with nothing to say why.
 
 ## Reporting a problem
 

@@ -19,6 +19,11 @@ Ele fala **no idioma em que o jogo está**, qualquer um dos onze, porque quase t
 
 - **Menus e opções**: a tela em que você entrou, o item em foco e sua descrição; o nome de
   uma configuração, em que valor está e o que a mudança fez.
+- **Controles**: a tela de controles, pelas opções e pelo menu de pausa — qual
+  dispositivo cada jogador usa, a que cada ação está atribuída, e a própria atribuição:
+  a tecla ou o botão tomado e o que ele deslocou. As teclas do teclado são lidas como o
+  jogo as escreve; os botões de um controle são nomeados a partir das atribuições que o
+  jogo entrega à sua tela — novidade desta versão, ainda em verificação.
 - **Modo história**: cada linha de diálogo e cada final — sem voz neste jogo e, portanto,
   inacessíveis sem isso.
 - **Listas de comandos**: como se executa um golpe, em cinco notações (F10 alterna entre
@@ -83,7 +88,7 @@ no processo percebe que ela está ali.
 | Clique do analógico direito, na luta | Os dois jogadores juntos: "PLAYER 1, 62%, POWER 2, PLAYER 2, 40%, POWER 1". No ataque de tempo, o tempo decorrido |
 | Analógico direito, fora da luta | F1 a F3 no controle: cima é F2, baixo é F3, esquerda e direita são F1, e o clique muda a notação como o F10. Em um desafio ou uma lição continua assim, inclusive o clique: ali as direções são do personagem, e os comandos importam mais que as barras |
 | F10 | Muda como um comando é dito, entre as cinco notações |
-| F4 | Liga ou desliga a leitura dos menus |
+| F11, ou os dois cliques dos sticks no controle | Desliga o leitor inteiro, e liga de novo. Desligado não diz nada; estas duas continuam respondendo, e cada partida começa com o leitor ligado |
 | F7 | Para de falar |
 | F8 | Diz qual leitor de tela o mod encontrou — ouvir algo já significa que o mod está funcionando |
 | F9 | Marca este momento no log, em silêncio: "o problema é aqui" |
@@ -111,6 +116,11 @@ linha na primeira vez que ela precisa aparecer e nunca mais a menciona, então v
 único jeito de saber. Anotar isso faz o mod ficar atrasado uma vez, e não a cada início.
 Apague o arquivo para que ele aprenda tudo de novo.
 
+`KofXIVReader.settings`, ao lado, guarda o que você escolheu, e não o que o jogo mostrou:
+por enquanto, a notação em que os comandos são lidos. O leitor desligado não é guardado de
+propósito: um mod que lembrasse disso começaria um jogo mudo sem nada que explicasse por
+quê.
+
 ## Relatar um problema
 
 Aperte **F6** no jogo para ligar o log, **F9** no momento em que algo é lido errado, e então
@@ -118,6 +128,15 @@ saia normalmente. O log é `KofXIVReader.log`, na pasta do jogo, e a sessão ant
 lado como `KofXIVReader.prev.log`. Ele registra o que o jogo mostrou, em qual campo, de qual
 tela veio e o que o mod disse a respeito — o bastante para ver o que ele deveria ter dito.
 Não precisa escrever o que você ouviu: o log já tem as palavras exatas.
+
+## Código-fonte
+
+O código-fonte ainda não é público. Será, quando o mod estiver firmado no uso; é uma etapa,
+não uma decisão definitiva. O que é publicado aqui é livre para baixar e usar.
+
+O mod leva dois arquivos que não são dele, `prism.dll` e `tolk.dll`, ambos do
+[PRISM](https://github.com/ethindp/prism) sob a licença Mozilla Public License 2.0 — veja
+[THIRD-PARTY.md](THIRD-PARTY.md).
 
 ## Código-fonte
 

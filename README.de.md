@@ -19,6 +19,12 @@ fast alles, was sie sagt, ist der Text des Spiels selbst und nicht der der Mod.
 - **Menüs und Optionen**: der Bildschirm, den du betreten hast, der Eintrag mit dem Fokus
   und seine Beschreibung; der Name einer Einstellung, worauf sie steht und was eine
   Änderung bewirkt hat.
+- **Steuerung**: der Steuerungsbildschirm, aus den Optionen und aus dem Pausenmenü —
+  welches Gerät jeder Spieler benutzt, womit jede Aktion belegt ist, und die Belegung
+  selbst: die übernommene Taste oder der Knopf und was dabei verdrängt wurde.
+  Tastaturtasten werden so gelesen, wie das Spiel sie schreibt; die Knöpfe eines
+  Controllers werden nach den Belegungen benannt, die das Spiel seinem Bildschirm
+  übergibt — neu in dieser Version und noch in Prüfung.
 - **Story-Modus**: jede Dialogzeile und jedes Ende — in diesem Spiel ohne Sprachausgabe und
   daher ohne die Mod nicht zugänglich.
 - **Kommandolisten**: wie ein Move ausgeführt wird, in fünf Schreibweisen (F10 wechselt):
@@ -83,7 +89,7 @@ Prozess etwas davon merkt.
 | Klick des rechten Sticks, im Kampf | Beide Spieler zusammen: "PLAYER 1, 62%, POWER 2, PLAYER 2, 40%, POWER 1". Im Zeitangriff die bisher gebrauchte Zeit |
 | Rechter Stick, sonst | F1 bis F3 für das Gamepad: oben ist F2, unten ist F3, links und rechts sind F1, der Klick wechselt die Schreibweise wie F10. In einem Trial oder einer Lektion bleibt es so, auch der Klick: dort gehören die Richtungen dem Kämpfer, und die Eingaben zählen mehr als die Balken |
 | F10 | Wechselt die Schreibweise der Eingaben, durch die fünf Varianten |
-| F4 | Menülesen ein- oder ausschalten |
+| F11, oder beide Stickklicks am Pad | Schaltet den ganzen Reader aus und wieder ein. Aus sagt er gar nichts; diese zwei antworten weiter, und jeder Start beginnt mit eingeschaltetem Reader |
 | F7 | Aufhören zu sprechen |
 | F8 | Sagt, welchen Screenreader die Mod gefunden hat — überhaupt etwas zu hören heißt, die Mod läuft |
 | F9 | Markiert diesen Moment im Protokoll, stumm: "hier ist das Problem" |
@@ -113,6 +119,11 @@ Zeile beim ersten Mal und erwähnt sie danach nie wieder, also ist Sehen der ein
 zu erfahren. Es aufzuschreiben heißt, dass die Mod einmal hinterherhinkt statt bei jedem
 Start. Lösche die Datei, und sie lernt alles neu.
 
+`KofXIVReader.settings`, daneben, hält das, was du gewählt hast, statt dessen, was das Spiel
+gezeigt hat: bislang die Notation, in der Eingaben gelesen werden. Dass der Reader aus ist,
+wird bewusst nicht behalten — eine Mod, die sich das merkt, startet ein stummes Spiel, das
+nicht sagen kann, warum.
+
 ## Ein Problem melden
 
 Drücke im Spiel **F6**, um das Protokoll einzuschalten, **F9** in dem Moment, in dem etwas
@@ -121,6 +132,16 @@ Spielordner, die vorige Sitzung liegt daneben als `KofXIVReader.prev.log`. Es ve
 was das Spiel angezeigt hat, in welchem Feld, von welchem Bildschirm und was die Mod dazu
 gesagt hat — genug, um zu sehen, was sie hätte sagen sollen. Du musst nicht aufschreiben,
 was du gehört hast: im Protokoll steht der genaue Wortlaut.
+
+## Quellcode
+
+Der Quellcode ist noch nicht öffentlich. Er wird es, sobald die Mod im Gebrauch angekommen
+ist; das ist eine Phase, keine Grundsatzentscheidung. Was hier erscheint, darf frei
+heruntergeladen und benutzt werden.
+
+Die Mod bringt zwei fremde Dateien mit, `prism.dll` und `tolk.dll`, beide von
+[PRISM](https://github.com/ethindp/prism) unter der Mozilla Public License 2.0 — siehe
+[THIRD-PARTY.md](THIRD-PARTY.md).
 
 ## Quellcode
 
