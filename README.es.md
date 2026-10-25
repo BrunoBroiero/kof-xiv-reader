@@ -18,9 +18,9 @@ que dice es el texto del propio juego y no palabras del mod.
 - **Controles**: la pantalla de controles, desde las opciones y desde el menú de pausa:
   qué dispositivo usa cada jugador, a qué está asignada cada acción, y la asignación
   misma: la tecla o el botón que tomó y el que haya desplazado. Las teclas se leen tal
-  como el juego las escribe; los botones de un mando se nombran a partir de las
-  asignaciones que el juego le pasa a su pantalla, algo nuevo en esta versión y todavía
-  en comprobación.
+  como el juego las escribe. Los botones de un mando todavía no se leen (las asignaciones
+  que el juego le pasa a su pantalla siguen en estudio), así que las filas de un mando
+  dicen solo la acción.
 - **Modo historia**: cada línea de diálogo y cada final. En este juego no tienen voz, así
   que sin esto no hay manera de saber qué pasa.
 - **Listas de comandos**: cómo se hace cada movimiento, en cinco notaciones (F10 las

@@ -22,8 +22,9 @@ Ele fala **no idioma em que o jogo está**, qualquer um dos onze, porque quase t
 - **Controles**: a tela de controles, pelas opções e pelo menu de pausa — qual
   dispositivo cada jogador usa, a que cada ação está atribuída, e a própria atribuição:
   a tecla ou o botão tomado e o que ele deslocou. As teclas do teclado são lidas como o
-  jogo as escreve; os botões de um controle são nomeados a partir das atribuições que o
-  jogo entrega à sua tela — novidade desta versão, ainda em verificação.
+  jogo as escreve. Os botões de um controle ainda não são lidos — as atribuições que o
+  jogo entrega à sua tela ainda estão sendo decifradas —, por isso as linhas de um
+  controle dizem só a ação.
 - **Modo história**: cada linha de diálogo e cada final — sem voz neste jogo e, portanto,
   inacessíveis sem isso.
 - **Listas de comandos**: como se executa um golpe, em cinco notações (F10 alterna entre

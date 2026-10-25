@@ -22,9 +22,10 @@ fast alles, was sie sagt, ist der Text des Spiels selbst und nicht der der Mod.
 - **Steuerung**: der Steuerungsbildschirm, aus den Optionen und aus dem Pausenmenü —
   welches Gerät jeder Spieler benutzt, womit jede Aktion belegt ist, und die Belegung
   selbst: die übernommene Taste oder der Knopf und was dabei verdrängt wurde.
-  Tastaturtasten werden so gelesen, wie das Spiel sie schreibt; die Knöpfe eines
-  Controllers werden nach den Belegungen benannt, die das Spiel seinem Bildschirm
-  übergibt — neu in dieser Version und noch in Prüfung.
+  Tastaturtasten werden so gelesen, wie das Spiel sie schreibt. Die Knöpfe eines
+  Controllers werden noch nicht gelesen — die Belegungen, die das Spiel seinem Bildschirm
+  übergibt, werden noch entschlüsselt —, daher nennen die Zeilen eines Controllers nur
+  die Aktion.
 - **Story-Modus**: jede Dialogzeile und jedes Ende — in diesem Spiel ohne Sprachausgabe und
   daher ohne die Mod nicht zugänglich.
 - **Kommandolisten**: wie ein Move ausgeführt wird, in fünf Schreibweisen (F10 wechselt):

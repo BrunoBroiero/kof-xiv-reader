@@ -21,9 +21,9 @@ ce qu'il dit est le texte du jeu lui-même et non celui du mod.
 - **Commandes** : l'écran des commandes, depuis les options et depuis le menu pause —
   l'appareil de chaque joueur, ce à quoi chaque action est assignée, et l'assignation
   elle-même : la touche ou le bouton pris et celui qu'il a délogé. Les touches du clavier
-  sont lues telles que le jeu les écrit ; les boutons d'une manette sont nommés d'après
-  les assignations que le jeu transmet à son écran — nouveau dans cette version et encore
-  en vérification.
+  sont lues telles que le jeu les écrit. Les boutons d'une manette ne sont pas encore lus
+  — les assignations que le jeu transmet à son écran sont encore en cours de décodage —,
+  les lignes d'une manette ne nomment donc que l'action.
 - **Mode histoire** : chaque ligne de dialogue et chaque fin — sans voix dans ce jeu, donc
   inaccessibles sans cela.
 - **Listes de commandes** : comment s'exécute un coup, en cinq notations (F10 les change) :

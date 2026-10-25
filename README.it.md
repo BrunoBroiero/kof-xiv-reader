@@ -22,9 +22,9 @@ quasi tutto ciò che dice è il testo del gioco stesso e non parole della mod.
 - **Comandi**: la schermata dei comandi, dalle opzioni e dal menu di pausa — quale
   dispositivo usa ogni giocatore, a cosa è assegnata ogni azione, e l'assegnazione
   stessa: il tasto o il pulsante preso e quello che ha spostato. I tasti della tastiera
-  si leggono come li scrive il gioco; i pulsanti di un controller prendono il nome dalle
-  assegnazioni che il gioco passa alla sua schermata — una novità di questa versione,
-  ancora in verifica.
+  si leggono come li scrive il gioco. I pulsanti di un controller non si leggono ancora
+  — le assegnazioni che il gioco passa alla sua schermata sono ancora da decifrare —,
+  quindi le righe di un controller dicono solo l'azione.
 - **Modalità storia**: ogni battuta di dialogo e ogni finale — senza voce in questo gioco, e
   quindi inaccessibili senza questo.
 - **Liste dei comandi**: come si esegue una mossa, in cinque notazioni (F10 le cambia): le

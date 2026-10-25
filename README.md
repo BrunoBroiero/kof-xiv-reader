@@ -18,8 +18,8 @@ because almost everything it says is the game's own text rather than the mod's.
 - **Controls**: the controls screen, from the options and from the pause menu — which
   device each player uses, what every action is bound to, and the binding itself: the
   key or button taken and any it displaced. Keyboard keys are read as the game writes
-  them; a pad's buttons are named from the bindings the game hands its screen, which is
-  new in this version and still being checked.
+  them. A pad's buttons are not read yet — the bindings the game hands its screen are
+  still being decoded — so a pad's rows name the action alone.
 - **Story mode**: every line of dialogue and every ending — unvoiced in this game, and so
   unreadable without this.
 - **Command lists**: how a move is performed, in five notations (F10 switches between
